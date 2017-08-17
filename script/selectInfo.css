@@ -35,8 +35,17 @@ input.emailbox-input[type="text"] {
     overflow: auto;
 }
 
+.select-list-cont {
+    height: 203px;
+    overflow: auto;
+}
+
 .select-info-right {
     border-left: 1px solid #ccc;
+}
+
+.vehicle-list-item {
+    height: 149px;
     overflow: auto;
 }
 
@@ -45,6 +54,7 @@ input.emailbox-input[type="text"] {
     bottom: 0;
     left: 0;
     right: 0;
+    width: 93%;
     background: #f1f1f1;
     padding: 7px 10px;
     font-size: 12px;

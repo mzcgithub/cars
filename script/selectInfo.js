@@ -74,12 +74,14 @@
                                 htr += '</div>';
                                 htr += '<div class="vehicle-usage">';
                                 htr += '<div class="vehicle-usageed">预约用车情况：</div>';
+                                htr += '<div class="vehicle-list-item">';
                                 $.map(jb.info, function(item, index) {
                                     htr += '<div class="vehicle-list">';
                                     htr += '<div><span class="vehicle-user">' + item.user + '</span>预约车辆</div>';
                                     htr += '<div><span>' + item.start + '</span> ~ <span>' + item.end + '</span></div>';
                                     htr += '</div>';
                                 });
+                                htr += '</div>';
                                 htr += '</div>';
                                 htr += '';
                                 rightBox.append(htr);
