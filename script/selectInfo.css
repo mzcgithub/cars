@@ -118,7 +118,7 @@ input.emailbox-input[type="text"] {
 }
 
 .select-info-right .vehicle-usage {
-    padding: 0 10px;
+    padding: 0 0 10px 10px;
 }
 
 .vehicle-usageed {
