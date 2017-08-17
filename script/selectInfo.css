@@ -1,38 +1,47 @@
 @charset "UTF-8";
 input.emailbox-input[type="text"] {
-	padding: 4px 25px 4px 6px;
+    padding: 4px 25px 4px 6px;
 }
-.select-info-tip{
-	position: relative;
+
+.select-info-tip {
+    position: relative;
 }
-.select-info-cont{
-	position: absolute;
-	top: 30px;
-	left: 0;
-	width: 550px;
-	height: 250px;
-	background: #fff;
-	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-	border-radius:3px;
-	z-index: 10;
+
+.select-info-cont {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 550px;
+    height: 250px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    z-index: 10;
 }
-.select-info-left,.select-info-right{
-	position: relative;
-	float: left;
-	width: 50%;
-	height: 100%;
-	padding: 10px 0px;
-	box-sizing: border-box;
-	font-size: 12px;
+
+.select-info-left,
+.select-info-right {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    font-size: 12px;
 }
-.select-info-left{
-	font-size: 12px;
+
+.select-info-left {
+    font-size: 12px;
+    overflow: auto;
 }
-.select-info-right{
-	border-left: 1px solid #ccc;
+
+.select-info-right {
+    border-left: 1px solid #ccc;
+    overflow: auto;
 }
-.select-info-show{
-	position: absolute;
+
+.select-info-show {
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -40,69 +49,87 @@ input.emailbox-input[type="text"] {
     padding: 7px 10px;
     font-size: 12px;
 }
-.select-info-show input{
-	vertical-align: baseline;
-	margin-right: 5px;
+
+.select-info-show input {
+    vertical-align: baseline;
+    margin-right: 5px;
 }
-.select-info-list{
-	position: relative;
-	padding: 7px 0;
+
+.select-info-list {
+    position: relative;
+    padding: 7px 0;
 }
-.select-info-list:hover{
-	background: #ecf7fb;
+
+.select-info-list:hover {
+    background: #ecf7fb;
 }
-.select-info-list.active:hover,.select-info-list.active{
-	background: #c8e6f1;
+
+.select-info-list.active:hover,
+.select-info-list.active {
+    background: #c8e6f1;
 }
-.select-info-text{
-	display: inline-block;
-	padding: 0px 5px;
+
+.select-info-text {
+    display: inline-block;
+    padding: 0px 5px;
 }
-.select-info-list:hover .select-info-check{
-	display: inline-block;
+
+.select-info-list:hover .select-info-check {
+    display: inline-block;
 }
-.select-info-check{
-	position: absolute;
-	display: none;
-	top:6px;
-	right: 10px;
-	padding: 2px 5px;
-	border-radius:3px;
-	background: #45c0ec;
-	color: #fff;
-	cursor: pointer;
-	font-size: 12px;
+
+.select-info-check {
+    position: absolute;
+    display: none;
+    top: 6px;
+    right: 10px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background: #45c0ec;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
 }
-.select-info-right .head-info{
-	padding: 10px;
+
+.select-info-right .head-info {
+    padding: 10px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
 }
-.select-info-right .head-info .tip-text{
-	font-weight: bold;
+
+.select-info-right .head-info .tip-text {
+    font-weight: bold;
     font-size: 12px;
     margin-right: 5px;
 }
-.select-info-right .head-info .tip-state{
+
+.select-info-right .head-info .tip-state {
     font-size: 12px;
     color: green;
 }
-.select-info-right .vehicle-usage{
-	padding: 0 10px 10px 10px;
+
+.select-info-right .vehicle-usage {
+    padding: 0 10px 10px 10px;
 }
-.vehicle-usageed{
-	font-weight: bold;
-	color: #666;
+
+.vehicle-usageed {
+    font-weight: bold;
+    color: #666;
 }
-.vehicle-list{
-	padding: 5px 0;
+
+.vehicle-list {
+    padding: 5px 0;
 }
-.vehicle-user{
-	color: blue;
+
+.vehicle-user {
+    color: blue;
 }
-.vehicle-other,.vehicle-stop{
-	color: #999;
+
+.vehicle-other,
+.vehicle-stop {
+    color: #999;
 }
-.vehicle-other{
-	margin-left: 15px;
+
+.vehicle-other {
+    margin-left: 15px;
 }
