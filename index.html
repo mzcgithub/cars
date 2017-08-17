@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>信息显示</title>
+
+    <script src="./script/jquery-1.9.0.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./script/selectInfo.js"></script>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./fontawesome/icocss/font-awesome.css">
+    <link rel="stylesheet" href="https://content.banggood.cn/Content/lib/../bgicon/css/icbg-font.css">
+    <link rel="stylesheet" href="./script/selectInfo.css">
+</head>
+
+<body>
+    <div style="margin: 30px;">
+        <input class="selectInfoTip" type="text" placeholder="选择" value="你好" />
+        <div style="margin-top: 300px;"></div>
+        <!--<input class="selectInfoTip" type="text" placeholder="选择"/>-->
+    </div>
+    <!--<div style="margin: 300px 0 0 30px;">
+        <input class="selectInfoTip1" type="text" placeholder="选择" />
+    </div>-->
+
+</body>
+
+</html>
+<script>
+    $(function() {
+        //调用接口数据 获取返回的数据内容
+        $('.selectInfoTip').selectInfoTip('/select.json');
+        var strd = '行政'
+        var ret = /strd/;
+        console.log(ret.test("豪泉大夏行政部"));
+    });
+</script>
